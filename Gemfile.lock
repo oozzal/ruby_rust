@@ -16,8 +16,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rake
-  rake-compiler (= 1.2.0)
+  rake-compiler (~> 1.2.0)
   rb_sys
   ruby_rust!
 

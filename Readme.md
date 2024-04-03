@@ -1,11 +1,14 @@
 - Make sure rust toolchain is installed. https://rustup.rs/
-## Compile and Run Locally
+## Compile
   ```bash
   # install dependencies and compile the gem
   bundle
   rake compile
+  ```
+
+## Run
+  ```bash
   # open console to include the compiled gem
-  cd app
   bundle exec irb
   ```
   ```ruby
@@ -19,12 +22,4 @@
   git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
   gem 'ruby_rust', github: 'oozzal/ruby_rust'
-  ```
-  ```bash
-  bundle
-  bundle exec irb
-  ```
-  ```ruby
-  require 'ruby_rust'
-  distance([1.1, 2.3], [3.2, 4.1])
   ```
