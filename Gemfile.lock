@@ -9,6 +9,7 @@ GEM
     rake (13.2.0)
     rake-compiler (1.2.0)
       rake
+    rb_sys (0.9.91)
 
 PLATFORMS
   arm64-darwin-23
@@ -17,6 +18,7 @@ PLATFORMS
 DEPENDENCIES
   rake
   rake-compiler (= 1.2.0)
+  rb_sys
   ruby_rust!
 
 BUNDLED WITH

@@ -1,1 +1,1 @@
-require_relative "ruby_rust/ruby_rust"
+require_relative 'ruby_rust/ruby_rust'
