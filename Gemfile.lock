@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    ruby_rust (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.2.0)
+    rake-compiler (1.2.0)
+      rake
+
+PLATFORMS
+  arm64-darwin-23
+  ruby
+
+DEPENDENCIES
+  rake
+  rake-compiler (= 1.2.0)
+  ruby_rust!
+
+BUNDLED WITH
+   2.5.6

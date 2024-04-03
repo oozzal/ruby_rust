@@ -1,0 +1,17 @@
+PATH
+  remote: ..
+  specs:
+    ruby_rust (0.1.0)
+
+GEM
+  specs:
+
+PLATFORMS
+  arm64-darwin-23
+  ruby
+
+DEPENDENCIES
+  ruby_rust!
+
+BUNDLED WITH
+   2.5.6
