@@ -7,12 +7,18 @@
   ```
 
 ## Run
+  `rake compile` will generate the compiled extension at `lib/ruby_rust/ruby_rust.bundle` (or `.so` on linux)
+  This bundle file includes all dependencies and can be required as regualar ruby module like:
+  ```
+  # if current directory contains ruby_rust.bundle
+  require './ruby_rust`
+  ```
+
+  Or, with bundle console
   ```bash
-  # open console to include the compiled gem
-  bundle exec irb
+  bundle console
   ```
   ```ruby
-  require 'ruby_rust'
   distance([1.1, 2.3], [3.2, 4.1])
   ```
 
